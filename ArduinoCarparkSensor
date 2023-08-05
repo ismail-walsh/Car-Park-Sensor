@@ -1,4 +1,15 @@
-//Assesment 2 Car Park System
+// Arduino Park Sensor System
+/*
+Key:
+  1 = decimal
+  2 = bottom
+  3 = bottom-right
+  4 = middle
+  5 = top-right
+  6 = top-left
+  7 = bottom-left
+  8 = top
+*/
 
 const int latchPin = 9;
 const int clockPin = 10;
@@ -15,18 +26,6 @@ float Colour = 0;
 
 int dig1 = 2;
 int dig2 = 4;
-
-/*
-  1 = decimal
-  2 = bottom
-  3 = bottom-right
-  4 = middle
-  5 = top-right
-  6 = top-left
-  7 = bottom-left
-  8 = top
-*/
-
 
 typedef unsigned char uchar;
 
